@@ -45,14 +45,107 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="ArithPro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ArithPro.Designer.cs">
+      <DependentUpon>ArithPro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CenSeCircle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CenSeCircle.Designer.cs">
+      <DependentUpon>CenSeCircle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Circle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Circle.Designer.cs">
+      <DependentUpon>Circle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DirectP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DirectP.Designer.cs">
+      <DependentUpon>DirectP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeomPrp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeomPrp.Designer.cs">
+      <DependentUpon>GeomPrp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Euler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Euler.Designer.cs">
+      <DependentUpon>Euler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LineSize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LineSize.Designer.cs">
+      <DependentUpon>LineSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinInter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LinInter.Designer.cs">
+      <DependentUpon>LinInter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PercentageChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PercentageChange.Designer.cs">
+      <DependentUpon>PercentageChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sector.Designer.cs">
+      <DependentUpon>Sector.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ArithPro.resx">
+      <DependentUpon>ArithPro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CenSeCircle.resx">
+      <DependentUpon>CenSeCircle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Circle.resx">
+      <DependentUpon>Circle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DirectP.resx">
+      <DependentUpon>DirectP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeomPrp.resx">
+      <DependentUpon>GeomPrp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Euler.resx">
+      <DependentUpon>Euler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LineSize.resx">
+      <DependentUpon>LineSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LinInter.resx">
+      <DependentUpon>LinInter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PercentageChange.resx">
+      <DependentUpon>PercentageChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sector.resx">
+      <DependentUpon>Sector.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
